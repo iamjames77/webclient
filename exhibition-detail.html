@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>전시 상세 정보</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+nt<body>
+    <header>
+        <h1>문화 예술 전시 정보 플랫폼</h1>
+        <nav>
+            <ul>
+                <li><a href="#">전시 검색</a></li>
+                <li><a href="#">내 주변 전시</a></li>
+                <li><a href="#">커뮤니티</a></li>
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="exhibition-info">
+            <h2>전시 제목</h2>
+            <img src="exhibition.jpg" alt="전시 이미지">
+            <p>기간: 2024년 5월 1일 ~ 2024년 6월 30일</p>
+            <p>장소: 서울시 중구 예술의전당</p>
+            <p>작가: 홍길동, 김철수, 이영희</p>
+            <p>소개: 전시 소개 내용</p>
+            <a href="#" id = "write-review-btn" class="btn">후기 작성</a>
+        </section>
+        <section id="exhibition-artists">
+            <h2>작가</h2>
+            <ul class="artists">
+                <li>
+                    <img src="artist1.jpg" alt="작가 이미지">
+                    <h3>홍길동</h3>
+                    <p>작가 소개 내용</p>
+                </li>
+                <li>
+                    <img src="artist2.jpg" alt="작가 이미지">
+                    <h3>김철수</h3>
+                    <p>작가 소개 내용</p>
+                </li>
+                <li>
+                    <img src="artist3.jpg" alt="작가 이미지">
+                    <h3>이영희</h3>
+                    <p>작가 소개 내용</p>
+                </li>
+            </ul>
+        </section>
+        <section id="exhibition-reviews">
+            <h2>후기</h2>
+            <ul class="reviews">
+                <li>
+                    <div class="review">
+                        <h3>OO님의 후기</h3>
+                        <p>후기 내용</p>
+                        <span>작성일: 2024년 5월 28일</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="review">
+                        <h3>XX님의 후기</h3>
+                        <p>후기 내용</p>
+                        <span>작성일: 2024년 5월 28일</span>
+                    </div>
+                </li>
+            </ul>
+            <a href="#" class="btn">더 보기</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 문화 예술 전시 정보 플랫폼</p>
+    </footer>
+    <script src="detail_script.js"></script>
+</body>
+</html>
